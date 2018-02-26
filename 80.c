@@ -13,10 +13,10 @@ n=n/10;
 while(sum!=0)
 {
 t=sum%10;
-}
 if(t%2!=0)
 {
-printf("%d",t);
+printf("%d\t",t);
 }
 sum=sum/10;
+}
 }
